@@ -3,14 +3,19 @@
   "version": "0.0.0",
   "license": "MIT",
   "type": "module",
-  "main": "./index.ts",
-  "types": "./index.ts",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
   "dependencies": {
-    "@puredit/utils": "*",
+    "@puredit/utils": "https://github.com/puredit/utils.git",
     "web-tree-sitter": "0.20.5"
   },
   "devDependencies": {
-    "@puredit/tsconfig": "*",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.5",
     "typescript": "^4.5.3"
-  }
+  },
+  "files": [
+    "src",
+    "wasm"
+  ]
 }
