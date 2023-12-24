@@ -1,0 +1,16 @@
+{
+  "name": "@puredit/parser",
+  "version": "0.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "dependencies": {
+    "@puredit/utils": "*",
+    "web-tree-sitter": "0.20.5"
+  },
+  "devDependencies": {
+    "@puredit/tsconfig": "*",
+    "typescript": "^4.5.3"
+  }
+}
