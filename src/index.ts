@@ -5,6 +5,7 @@ export { arg, block, contextVariable } from "./define";
 export { findPatterns } from "./match";
 export { Target } from "./treeSitterParser";
 export { createPatternMap } from "./pattern";
+export { matchToString, syntaxNodeToString } from "./inspect";
 export type {
   SyntaxNode,
   PatternNode,
